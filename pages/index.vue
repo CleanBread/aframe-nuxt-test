@@ -12,19 +12,20 @@ a-scene {
     z-index: -1;
 }
 
-#teb {
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    padding: 8px;
-}
-
 #elements {
     position: fixed;
     top: 0;
     left: 0;
     overflow: hidden;
     z-index: -100;
+	font-size: 400%;
+}
+
+#teb {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    padding: 8px;
 }
 
 main {
@@ -43,8 +44,8 @@ main {
                 <img id=tea src="~assets/tea.png">
             </a-assets>
 
-            <a-plane src="#tea" position="0 0 -4" rotation="-90 0 0" width="4" height="4" />
-            <a-plane material="shader: html; target: #teb; fps: 30; transparent: true" width=4 height=3 position="0 1 -4" rotation="0 0 0" />
+            <a-plane src="#tea" position="0 0 -4" rotation="-90 0 0" width=4 height=4 />
+            <a-plane material="shader: html; target: #teb; fps: 30; transparent: true" width=3 height=2 position="0 1 -4" rotation="0 0 0" />
             <a-sky color="#ECECEC" />
         </a-scene>
 
