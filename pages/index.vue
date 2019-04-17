@@ -75,14 +75,18 @@ article {
         <main>
             <article>
                 <h1>A-Frame / Nuxt.js test</h1>
-                <p>
-                    <label>color: <select v-model=color>
-                        <option value="red">red</option>
-                        <option value="green">green</option>
-                        <option value="blue">blue</option>
-                    </select></label><br>
-                    <label>position Y: <input type=range min=0 max=3 step=0.1 v-model=position.y></label>
-                </p>
+				<p>Drag 3D area to move the point of view. And press <b>WASD</b> to move camera.</p>
+				<section>
+					<h2>control parameters from nuxt.js</h2>
+					<p>
+						<label>color: <select v-model=color>
+							<option value="red">red</option>
+							<option value="green">green</option>
+							<option value="blue">blue</option>
+						</select></label><br>
+						<label>position Y: <input type=range min=0 max=3 step=0.1 v-model=position.y></label>
+					</p>
+				</section>
                 <section>
                     <h2>how to get started</h2>
                     <ol>
