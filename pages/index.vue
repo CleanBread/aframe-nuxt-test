@@ -58,7 +58,7 @@ article {
                 <a-sky color="#eee" />
             </a-scene>
         </div>
-p
+
         <div id=ar-elements>
             <div id=text-element :style="{color: color}">
                 <h1>A-Frame<br>Nuxt.js test</h1>
